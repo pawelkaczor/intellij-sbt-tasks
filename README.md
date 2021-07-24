@@ -1,3 +1,11 @@
 # intellij-sbt-tasks
 
-Intellij Idea Run Configurations for Scala SBT projects
+Intellij Idea run configurations for Scala SBT projects:
+- publishLocal
+- ...
+
+### Installation
+
+```scala
+addSbtPlugin("pl.newicom.ide.intellij" % "intellij-sbt-tasks" % "<current version>")
+```
