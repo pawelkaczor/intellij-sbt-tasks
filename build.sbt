@@ -12,3 +12,5 @@ sonatypeProfileName := "pl.newicom"
 
 versionScheme := Some("early-semver")
 scalacOptions ++= Seq("-deprecation", "-feature")
+
+Publish.settings
