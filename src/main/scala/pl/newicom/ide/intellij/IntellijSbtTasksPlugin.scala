@@ -6,7 +6,7 @@ object IntellijSbtTasksPlugin extends AutoPlugin {
 
   private val taskFileNames: Seq[String] = Seq(
     "/publishLocal.run.xml",
-    "/recompile`.run.xml",
+    "/recompile.run.xml",
     "/tests.run.xml",
     "/integrationTests.run.xml",
   )
