@@ -1,6 +1,6 @@
 package pl.newicom.ide.intellij
 
-import sbt.{AutoPlugin, Def, IO, SettingKey, file}
+import sbt._
 
 object IntellijSbtTasksPlugin extends AutoPlugin {
 

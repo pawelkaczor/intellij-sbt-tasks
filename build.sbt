@@ -1,18 +1,14 @@
-ThisBuild / versionScheme := Some("early-semver")
-ThisBuild / scalacOptions ++= Seq("-deprecation", "-feature")
-
 organization := "pl.newicom.ide.intellij"
-
 name := "intellij-sbt-tasks"
+sbtPlugin := true
 
-scalaVersion := "2.13.6"
+homepage := Some(new URL("http://github.com/pawelkaczor/intellij-sbt-tasks"))
+licenses := ("Apache2", new URL("http://raw.githubusercontent.com/pawelkaczor/intellij-sbt-tasks/master/LICENSE")) :: Nil
 
 publishMavenStyle := true
-homepage := Some(new URL("http://github.com/pawelkaczor/intellij-sbt-tasks"))
-licenses := (
-  "Apache2",
-  new URL("http://raw.githubusercontent.com/pawelkaczor/intellij-sbt-tasks/master/LICENSE")
-) :: Nil
 publishTo := sonatypePublishToBundle.value
 
 sonatypeProfileName := "pl.newicom"
+
+versionScheme := Some("early-semver")
+scalacOptions ++= Seq("-deprecation", "-feature")
