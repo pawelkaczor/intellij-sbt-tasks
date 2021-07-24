@@ -1,7 +1,9 @@
 # intellij-sbt-tasks
 
 Intellij Idea run configurations for Scala SBT projects:
+- recompile (clean Test/compile)
 - publishLocal
+- tests
 - integrationTests
 - ...
 
