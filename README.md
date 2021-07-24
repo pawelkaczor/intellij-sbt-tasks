@@ -2,6 +2,7 @@
 
 Intellij Idea run configurations for Scala SBT projects:
 - publishLocal
+- integrationTests
 - ...
 
 ### Installation

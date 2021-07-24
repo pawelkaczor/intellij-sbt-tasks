@@ -4,16 +4,24 @@ import sbt._
 
 object IntellijSbtTasksPlugin extends AutoPlugin {
 
-  private val publishLocalTask: String =
-    IO.readStream(IntellijSbtTasksPlugin.getClass.getResourceAsStream("/publishLocal.run.xml"))
+  private val taskFileNames: Seq[String] = Seq(
+    "/publishLocal.run.xml",
+    "/integrationTests.run.xml",
+  )
+
+  private val tasks: Seq[(String, String)] =
+    taskFileNames.map(f => (f, IO.readStream(IntellijSbtTasksPlugin.getClass.getResourceAsStream(f))))
 
   override def trigger = allRequirements
 
   override def buildSettings: Seq[Def.Setting[_]] = {
     SettingKey[Unit]("intellijGenerateSbtTasks") := {
-      val publishLocalTaskFile = file(".run/publishLocal.run.xml")
-      if (!publishLocalTaskFile.exists()) {
-        IO.write(publishLocalTaskFile, publishLocalTask)
+      tasks.foreach {
+        case (fileName, task) =>
+          val f = file(".run" + fileName)
+          if (!f.exists()) {
+            IO.write(f, task)
+          }
       }
     }
   }
