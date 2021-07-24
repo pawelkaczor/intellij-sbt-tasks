@@ -1,0 +1,23 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target
+project/project/target
+slack.webhook
+codacy.key
+/.bsp/sbt.json
