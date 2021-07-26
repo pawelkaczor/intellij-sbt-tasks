@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="tests" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
+  <configuration default="false" name="compile" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
     <option name="allowRunningInParallel" value="false" />
     <option name="projectPathOnTarget" />
     <option name="selectedOptions">
       <list />
     </option>
-    <option name="tasks" value="test" />
+    <option name="tasks" value="Test/compile" />
     <option name="useSbtShell" value="true" />
     <option name="vmparams" value="-Xms512M -Xmx2048M -Xss8M -XX:+CMSClassUnloadingEnabled" />
     <option name="workingDir" value="$PROJECT_DIR$" />
