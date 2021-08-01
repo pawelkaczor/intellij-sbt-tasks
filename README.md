@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/pl.newicom.ide.intellij/intellij-sbt-tasks/badge.svg)](https://maven-badges.herokuapp.com/maven-central/pl.newicom.ide.intellij/intellij-sbt-tasks)
+
 # intellij-sbt-tasks
 
 ### Run configurations
