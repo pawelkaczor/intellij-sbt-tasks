@@ -1,4 +1,5 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/pl.newicom.ide.intellij/intellij-sbt-tasks/badge.svg)](https://maven-badges.herokuapp.com/maven-central/pl.newicom.ide.intellij/intellij-sbt-tasks)
+[![GitHub license](https://img.shields.io/github/license/pawelkaczor/intellij-sbt-tasks)](https://github.com/pawelkaczor/intellij-sbt-tasks/blob/master/LICENSE)
 
 # intellij-sbt-tasks
 
