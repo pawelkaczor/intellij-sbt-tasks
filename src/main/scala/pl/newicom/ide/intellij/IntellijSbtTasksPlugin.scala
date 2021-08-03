@@ -1,6 +1,6 @@
 package pl.newicom.ide.intellij
 
-import sbt._
+import sbt.{Def, _}
 
 object IntellijSbtTasksPlugin extends AutoPlugin {
 
@@ -29,6 +29,9 @@ object IntellijSbtTasksPlugin extends AutoPlugin {
   override lazy val globalSettings: Seq[Setting[_]] = Seq(
     kamonInstrumentationEnabled := false,
   )
+
+  override def projectSettings: Seq[Def.Setting[_]] =
+    addCommandAlias("releaseWithDefaults", "release with-defaults")
 
   override def buildSettings: Seq[Def.Setting[_]] = {
     SettingKey[Unit]("intellijGenerateSbtTasks") := {

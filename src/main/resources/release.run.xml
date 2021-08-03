@@ -5,7 +5,7 @@
     <option name="selectedOptions">
       <list />
     </option>
-    <option name="tasks" value="release with-defaults" />
+    <option name="tasks" value="releaseWithDefaults" />
     <option name="useSbtShell" value="true" />
     <option name="vmparams" value="-Xms512M -Xmx2048M -Xss8M -XX:+CMSClassUnloadingEnabled" />
     <option name="workingDir" value="$PROJECT_DIR$" />
