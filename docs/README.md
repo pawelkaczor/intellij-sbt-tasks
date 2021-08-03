@@ -12,6 +12,7 @@ The following Run/Debug configurations and Run/Debug configuration templates are
 ### Run/Debug configurations
 - compile (Test/compile)
 - recompile (clean Test/compile)
+- release (release with-defaults)
 - publishLocal
 - tests
 - integrationTests

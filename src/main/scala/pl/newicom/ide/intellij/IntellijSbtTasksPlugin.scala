@@ -11,6 +11,7 @@ object IntellijSbtTasksPlugin extends AutoPlugin {
       "publishLocal.run.xml",
       "compile.run.xml",
       "recompile.run.xml",
+      "release.run.xml",
       "tests.run.xml",
       "integrationTests.run.xml"
     )
