@@ -6,7 +6,7 @@
       <list />
     </option>
     <option name="testKind" value="Class" />
-    <option name="javaOptions" value="-javaagent:$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/io/kamon/kanela-agent/1.0.7/kanela-agent-1.0.7.jar" />
+    <option name="javaOptions" value="-javaagent:$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/io/kamon/kanela-agent/1.0.17/kanela-agent-1.0.17.jar" />
     <option name="shortenClasspath" value="NONE" />
     <option name="workingDirectory" value="$PROJECT_DIR$" />
     <method v="2">
