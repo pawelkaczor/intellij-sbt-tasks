@@ -19,6 +19,9 @@ The following Run/Debug configurations and Run/Debug configuration templates are
 - publishLocal
 - tests
 - integrationTests
+- dependencyBrowseTree
+- dependencyBrowseTree (in Test)
+- dependencyBrowseTree (in IntegrationTest)
 
 
 ### Run/Debug configuration templates

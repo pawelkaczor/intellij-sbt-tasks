@@ -13,7 +13,10 @@ object IntellijSbtTasksPlugin extends AutoPlugin {
       "recompile.run.xml",
       "release.run.xml",
       "tests.run.xml",
-      "integrationTests.run.xml"
+      "integrationTests.run.xml",
+      "depBrowseTree.run.xml",
+      "depBrowseTreeInTest.run.xml",
+      "depBrowseTreeInIT.run.xml"
     )
       .map(readResource)
 
