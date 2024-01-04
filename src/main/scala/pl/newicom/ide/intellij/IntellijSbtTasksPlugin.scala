@@ -16,7 +16,8 @@ object IntellijSbtTasksPlugin extends AutoPlugin {
       "integrationTests.run.xml",
       "depBrowseTree.run.xml",
       "depBrowseTreeInTest.run.xml",
-      "depBrowseTreeInIT.run.xml"
+      "depBrowseTreeInIT.run.xml",
+      "git-pull.run.xml",
     )
       .map(readResource)
 
